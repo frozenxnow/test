@@ -1,25 +1,9 @@
 import Cocoa
 
 
+var i = 2
 
-
-class One {
-    struct Two {
-        enum Three {
-            case a
-            
-            class Four {
-                
-            }
-        }
-    }
-    var a = Two()
-}
-
-
-let two: One.Two = One.Two()
-
-let four: One.Two.Three.Four = One.Two.Three.Four()
-
-let caseA: One.Two.Three
-
+repeat {
+    print(i)
+    i *= 2
+} while (i < 128)
